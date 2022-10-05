@@ -12,8 +12,8 @@ public class GenerateReport {
 
         try {
             // The folder to output the reports to. If the folder does not exist, it will be created.
-            File outDirectory = new File("target/~REPORTS");
-            List<String> list = new ArrayList<String>();
+            File outDirectory = new File("target/~REPORT");
+            List<String> list = new ArrayList<>();
 
             // Add formatting
             list.add("target/cucumber-reports/cucumber.json");
